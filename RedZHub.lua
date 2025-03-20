@@ -17,5 +17,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/surelyco/CutestCodes/
 
 
 
-
-
