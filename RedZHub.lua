@@ -1,56 +1,59 @@
-_G.Quest = {
-    ['RGB Aura Haki'] = true,
-    ['Pull Lever'] = true,
-    ['Quest Dough Awaken'] = true
+-- Max level, godhuman, cdk, sgt
+script_key = "" -- premium only, u can leave it blank if ur not
+getgenv().Shutdown = false -- Turn on if u are farming bulk accounts
+getgenv().Configs = {
+    ["Team"] = "Marines",
+    ["FPS Boost"] = {
+        ["Enable"] = true,
+        ["FPS Cap"] = 30,
+    },
+    ["Farm Boss Drops"] = {
+        ["Enable"] = false,
+        ["When x2 Exp Expired"] = false
+    },
+    ["Hop"] = { -- premium only
+        ["Enable"] = true,
+        ["Hop Find Tushita"] = true,
+        ["Hop Find Valkyrie Helm"] = true,
+        ["Hop Find Mirror Fractal"] = true,
+        ["Hop Find Darkbeard"] = true, -- For skull guitar
+        ["Hop Find Soul Reaper"] = true, -- For CDK
+        ["Hop Find Mirage"] = true, -- For pull lever
+        ["Find Fruit"] = true, -- Will find 1m+ fruit to unlock swan door to access third sea
+    },
+    ["Farm Mastery"] = {
+        ["Enable"] = true,
+        ["Farm Mastery Weapons"] = {"Sword", "Gun", "Blox Fruit"}, -- Blox Fruit, Gun (left -> right: High -> Low Priority)
+        ["Swords To Farm"] = {"Cursed Dual Katana"},
+        ["Guns To Farm"] = {"Skull Guitar"},
+        ["Mastery Health (%)"] = 40 -- For Blox Fruit, Gun
+    },
+    ["Farm Config"] = {
+        ["First Farm At Sky"] = true,
+        ["Farm Bone Get x2 Exp"] = true
+    },
+    ["Trackstat"] = {
+        ["Enable"] = false,
+        ["Key"] = "", -- Get from xerohub.click
+        ["Device"] = "test" -- u can put any name here
+    },
+    ["Auto Spawn rip_indra"] = true,
+    ["Auto Spawn Dough King"] = true,
+    ["Auto Pull Lever"] = true,
+    ["Auto Collect Berry"] = true,
+    ["Auto Evo Race"] = true,
+    ["Awaken Fruit"] = true,
+    ["Rainbow Haki"] = true,
+    ["Hop Player Near"] = true,
+    ["Skull Guitar"] = true,
+    ["Cursed Dual Katana"] = true,
+    ["Switch Melee"] = true,
+    ["Eat Fruit"] = "", -- leave blank for none, put the fruit name like this example: Smoke Fruit, T-Rex Fruit, ...
+    ["Snipe Fruit"] = "Dragon kitsune yeti portal", 
+    ["Lock Fragment"] = 30000,
+    ["Buy Stuffs"] = true -- buso, geppo, soru, ken haki, ...
 }
-_G.Race = {
-    ['Select Race'] = {'Human','Fishman','Skypiea','Mink'},
-    ['Lock Race'] = true,
-    ['Evo Race V3'] = true
-}
-_G.Melee = {
-    ['Godhuman'] = true
-}
-_G.Sword = {
-    ['Saber'] = true,
-    ['Midnight Blade'] = true,
-    ['Shisui'] = true,
-    ['Saddi'] = true,
-    ['Wando'] = true,
-    ['Yama'] = true,
-    ['Koko'] = false,
-    ['Rengoku'] = true,
-    ['Canvander'] = true,
-    ['Buddy Sword'] = true,
-    ['Twin Hooks'] = true,
-    ['SpikeyTrident'] = true,
-    ['Hallow Scryte'] = true,
-    ['Dark Dagger'] = true,
-    ['Tushita'] = true,
-    ['True Triple Katana'] = true,
-    ['Cursed Dual Katana'] = true,
-    ['Shark Anchor'] = true
-}
-_G.Gun = {
-    ['Kabucha'] = true,
-    ['Acidum Rifle'] = true,
-    ['Soul Guitar'] = true,
-    ['Serpent Bow'] = true
-}
-_G.Fruit = {
-    ['Main Fruit'] = {'Kitsune-Kitsune','T-Rex-T-Rex','Mammoth-Mammoth'},
-    ['Select Fruit'] = {'Dark-Dark','Magma-Magma'}
-}
-_G.Mastery = {
-    ['Melee'] = true,
-    ['Sword'] = true,
-    ['Fruit'] = true
-}
-_G.Setting = {
-    ['FPS Booster'] = true,
-    ['Auto Close Ui'] = false
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune_Mobile/refs/heads/main/KaitunMatsunehub.lua"))()
+repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/kaitun.lua"))()
 
 
 
