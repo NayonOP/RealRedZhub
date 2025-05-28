@@ -1,54 +1,56 @@
-script_key = "wLrbzZcJTzKiCjXgEdYEVxGvzwEufIlq";
-_G["HoHo Hub Auto Bounty V4"] = {
-    ["Avatar"] = "rbxassetid://8598068647",
-    ["Farm Method"] = "Normal",
-    ["Select Team"] = "Pirate",
-    ["Discord Webhook"] = "",
-    ["Bypass Teleport"] = false,
-    ["Max Level Distance"] = 612,
-    ["Don't attack friends"] = true,
-    ["Don't attack player have cup"] = false,
-    ["Distance Attack Y"] = 2, -- Shark Race = 0; Another >= 6
-    ["Chat After Kill"] = {
-        ["Active"] = false,
-        ["List Chat"] = {""},
-    },
-    ["Yourself"] = {
-        ["Invisible From Ken"] = true,
-        ["No Stun"] = true,
-    },
-    ["SafeZone"] = {Enabled = true, ["Health Left (%)"] = 25, ["Wait Until Heal (%)"] = 80},
-    ["Time Control"] = {
-        ["Max Time Target Player"] = 120,
-    },
-    ["Abilities"] = {
-        ["Auto Click"] = true,
-        ["Melee"] = {
-            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-        },
-        ["Sword"] = {
-            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-        },
-        ["Gun"] = {
-            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
-        },
-        ["Fruit"] = {
-            Z = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6},
-            X = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6},
-            C = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6},
-            V = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6}, -- don't forget to disable V if u r using zoan fruits
-            F = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6},
-        },
-    },
+_G.Quest = {
+    ['RGB Aura Haki'] = true,
+    ['Pull Lever'] = true,
+    ['Quest Dough Awaken'] = true
 }
-_G.SupperFixLag = true
-_G["Auto Gacha & Store Fruit"] = true
-_G.loadCustomId = "fac6dbd013c78163f8061ce11b2c1330"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+_G.Race = {
+    ['Select Race'] = {'Human','Fishman','Skypiea','Mink'},
+    ['Lock Race'] = true,
+    ['Evo Race V3'] = true
+}
+_G.Melee = {
+    ['Godhuman'] = true
+}
+_G.Sword = {
+    ['Saber'] = true,
+    ['Midnight Blade'] = true,
+    ['Shisui'] = true,
+    ['Saddi'] = true,
+    ['Wando'] = true,
+    ['Yama'] = true,
+    ['Koko'] = false,
+    ['Rengoku'] = true,
+    ['Canvander'] = true,
+    ['Buddy Sword'] = true,
+    ['Twin Hooks'] = true,
+    ['SpikeyTrident'] = true,
+    ['Hallow Scryte'] = true,
+    ['Dark Dagger'] = true,
+    ['Tushita'] = true,
+    ['True Triple Katana'] = true,
+    ['Cursed Dual Katana'] = true,
+    ['Shark Anchor'] = true
+}
+_G.Gun = {
+    ['Kabucha'] = true,
+    ['Acidum Rifle'] = true,
+    ['Soul Guitar'] = true,
+    ['Serpent Bow'] = true
+}
+_G.Fruit = {
+    ['Main Fruit'] = {'Kitsune-Kitsune','T-Rex-T-Rex','Mammoth-Mammoth'},
+    ['Select Fruit'] = {'Dark-Dark','Magma-Magma'}
+}
+_G.Mastery = {
+    ['Melee'] = true,
+    ['Sword'] = true,
+    ['Fruit'] = true
+}
+_G.Setting = {
+    ['FPS Booster'] = true,
+    ['Auto Close Ui'] = false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune_Mobile/refs/heads/main/KaitunMatsunehub.lua"))()
 
 
 
