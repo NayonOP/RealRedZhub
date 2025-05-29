@@ -1,59 +1,57 @@
--- Max level, godhuman, cdk, sgt
-script_key = "" -- premium only, u can leave it blank if ur not
-getgenv().Shutdown = false -- Turn on if u are farming bulk accounts
-getgenv().Configs = {
-    ["Team"] = "Marines",
-    ["FPS Boost"] = {
-        ["Enable"] = true,
-        ["FPS Cap"] = 30,
+getgenv().Hide_UI = true
+getgenv().BlackScreen = false
+_G.HopFruit1M = false
+_G.KaitunConfig = {
+    ["Actions Allowed"] = {
+      ["Awakening Fruit"] = true,
+      ["Shark Anchor"] = true,
+      ["Mirror Fractal"] = true,
+      ["Soul Guitar"] = true,
+      ["Pole (1st Form)"] = true,
+      ["Upgrading Race"] = true,
+      ["Farming Boss Drop When Maxed Level"] = false,
+      ["Rainbown Haki"] = true,
+      ["Cursed Dual Katana"] = true,
+      ["Buy accessories"] = true,
+      ["Buy Hakis"] = true,
+      ["Buy Guns"] = true,
+      ["Buy Swords"] = true,
+      ["Upgrade Weapons"] = true,
+      ["Farming Boss Drops When X2 Expired"] = true,
+      ["Mirage Puzzle"] = true,
+      ["Saber"] = true
     },
-    ["Farm Boss Drops"] = {
-        ["Enable"] = false,
-        ["When x2 Exp Expired"] = false
+    ["Fps Boosting"] = true,
+    ["Fruit Snipping"] = true,
+    ["Fruit Eating"] = false,
+    ["High Ping Hop"] = true,
+    ["Fruit Choosen"] = {
+      ["T-Rex-T-Rex"] = true,
+      ["Shadow-Shadow"] = true,
+      ["Mammoth-Mammoth"] = true,
+      ["Gravity-Gravity"] = true,
+      ["Spirit-Spirit"] = true,
+      ["Dark-Dark"] = true,
+      ["Rocket-Rocket"] = true,
+      ["Control-Control"] = true,
+      ["Dough-Dough"] = true,
+      ["Leopard-Leopard"] = true,
+      ["Venom-Venom"] = true,
+      ["Dragon-Dragon"] = true,
+      ["Diamond-Diamond"] = true,
+      ["Kitsune-Kitsune"] = true,
+      ["Spring-Spring"] = true
     },
-    ["Hop"] = { -- premium only
-        ["Enable"] = true,
-        ["Hop Find Tushita"] = true,
-        ["Hop Find Valkyrie Helm"] = true,
-        ["Hop Find Mirror Fractal"] = true,
-        ["Hop Find Darkbeard"] = true, -- For skull guitar
-        ["Hop Find Soul Reaper"] = true, -- For CDK
-        ["Hop Find Mirage"] = true, -- For pull lever
-        ["Find Fruit"] = true, -- Will find 1m+ fruit to unlock swan door to access third sea
+    ["Player Nearing Hop"] = true,
+    ["Allow Stored"] = true,
+    ["Race Choosen"] = {
+      ["Human"] = true
     },
-    ["Farm Mastery"] = {
-        ["Enable"] = true,
-        ["Farm Mastery Weapons"] = {"Sword", "Gun", "Blox Fruit"}, -- Blox Fruit, Gun (left -> right: High -> Low Priority)
-        ["Swords To Farm"] = {"Cursed Dual Katana"},
-        ["Guns To Farm"] = {"Skull Guitar"},
-        ["Mastery Health (%)"] = 40 -- For Blox Fruit, Gun
-    },
-    ["Farm Config"] = {
-        ["First Farm At Sky"] = true,
-        ["Farm Bone Get x2 Exp"] = true
-    },
-    ["Trackstat"] = {
-        ["Enable"] = false,
-        ["Key"] = "", -- Get from xerohub.click
-        ["Device"] = "test" -- u can put any name here
-    },
-    ["Auto Spawn rip_indra"] = true,
-    ["Auto Spawn Dough King"] = true,
-    ["Auto Pull Lever"] = true,
-    ["Auto Collect Berry"] = true,
-    ["Auto Evo Race"] = true,
-    ["Awaken Fruit"] = true,
-    ["Rainbow Haki"] = true,
-    ["Hop Player Near"] = true,
-    ["Skull Guitar"] = true,
-    ["Cursed Dual Katana"] = true,
-    ["Switch Melee"] = true,
-    ["Eat Fruit"] = "", -- leave blank for none, put the fruit name like this example: Smoke Fruit, T-Rex Fruit, ...
-    ["Snipe Fruit"] = "Dragon kitsune yeti portal", 
-    ["Lock Fragment"] = 30000,
-    ["Buy Stuffs"] = true -- buso, geppo, soru, ken haki, ...
+    ["Race Snipping"] = true,
+    ["Tween Speed"] = 350,
+    ["Same Y Tween"] = true,
 }
-repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/kaitun.lua"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/memaybeohub/NewPage/main/Kaitun.lua'))()
 
 
 
