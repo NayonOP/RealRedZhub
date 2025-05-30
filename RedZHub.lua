@@ -1,4 +1,4 @@
--- Panda Fruit Finder Hub
+
 SpeedTween = 300
 getgenv().RandomFruit = true
 getgenv().EspFruit = true
