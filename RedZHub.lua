@@ -1,85 +1,31 @@
-getgenv().Config = {
-    ["Team"] = "Pirates",
-    ["Safe Health"] = {40, 50}, --- 60 - 70
-    ["Skip"] = {
-        ["Fruit"] = {
-            ["Enabled"] = true, --- false
-            ["Avoid Fruit"] = {
-                "Portal-Portal",
-                "Kitsune-Kitsune"
-            }
-        },
-        ["Avoid V4"] = true --- false
+getgenv().simple_settings = {
+    ["MASTERY"] = {
+        ["ACTIVE"] = true,
+        ["METHOD"] = "Half", -- Method for gaining mastery, "Half"[300] or "Full"[600]
     },
-    ["Hunt Method"] = {
-        ["Use Move Predict"] = true, --- false
-        ["Hit and Run"] = true --- false
+    ["OBJECTIVE"] = {
+        ["GODHUMAN"] = true,
+        ["RACE-V3"] = true,race to V3 if possible Human, Mink, (Fishman, Ghoul, Cyborg) soon
+        ["FRAGMENT"] = 100000,
+        -- SWORD
+        ["CANVANDER"] = true,
+        ["BUDDY-SWORD"] = true,
+        ["CURSED-DUAL-KATANA"] = true,
+        ["SHARK-ANCHOR"] = true, -- soon.
+        --GUN
+        ["ACIDUM-RIFLE"] = true,
+        ["VENOM-BOW"] = true,
+        ["SOUL-GUITAR"] = true,
     },
-    ["Spam All Skill On V4"] = {
-        ["Enabled"] = true, --- false
-        ["Weapons"] = {"Melee", "Gun", "Sword", "Blox Fruit"}
+    ["FRUITPURCHASE"] = true,
+    ["PRIORITYFRUIT"] = {
+        [1] = "Dragon-Dragon",
+        [2] = "Flame-Flame",
+        [3] = "Rumble-Rumble",
+        [4] = "Human-Human: Buddha",
+        [5] = "Dark-Dark",
     },
-    ["Chat"] = {
-        ["Enabled"] = false, --- false
-        ["Message"] = {"Vxeze Hub Auto Bounty"}
-    },
-    ["Custom Y Run"] = {
-        ["Enabled"] = true, --- false
-        ["Y Run"] = 5000 --- <5000
-    },
-    ["Misc"] = {
-        ["Auto Teleport Sea 2"] = false,
-        ["Auto Teleport Sea 3"] = true,
-        ["Auto Store Fruit"] = true,
-        ["Auto Random Fruit"] = true,
-        ["White Screen"] = false, --- true
-        ["Disabled Notify"] = false,
-        ["Boots FPS"] = false,
-        ["Auto Dash"] = true,
-        ["Auto Rejoin"] = true,
-        ["Click Delay"] = 0.01
-    },
-    ["Items"] = {
-        ["Use"] = {"Melee", "Gun", "Sword"},
-        ["Melee"] = {
-            ["Enable"] = true,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 1.5},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
-                ["C"] = {["Enable"] = true, ["HoldTime"] = 0.1}
-            }
-        },
-        ["Blox Fruit"] = {
-            ["Enable"] = true,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
-                ["C"] = {["Enable"] = true, ["HoldTime"] = 0.1},
-                ["V"] = {["Enable"] = false, ["HoldTime"] = 0.1},
-                ["F"] = {["Enable"] = true, ["HoldTime"] = 0.1}
-            }
-        },
-        ["Sword"] = {
-            ["Enable"] = true,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1}
-            }
-        },
-        ["Gun"] = {
-            ["Enable"] = true,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1}
-            }
-        }
-    }
+    ["FPSCAP"] = 30,
+    ["LOWTEXTURE"] = true
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubAutoBounty"))()
-
-
-
-
-
-
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
