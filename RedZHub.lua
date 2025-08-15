@@ -1,25 +1,27 @@
-getgenv().Config = {
-    Team = {
-        SelectTeam = "Marines"
+getgenv().BloxFruits = {
+    ["Team"] = "Marines",
+    ["TweenSpeed"] = 350,
+    ["Fruit"] = {
+        ["FruitNotifier"] = false,
+        ["AutoRandom"] = true,
+        ["FruitSniper"] = {
+            ["Enabled"] = false,
+            ["TargetFruits"] = {"Yeti-Yeti", "Dragon-Dragon", "Dough-Dough"},
+        },
     },
-    BuyFruit = {
-        SelectFruit = {"Kitsune-Kitsune"},
-        BuySelected = false,
-        BuyRandom = true
+    ["Farm"] = {
+        ["Enabled"] = true,
+        ["FastMethod"] = false,
+        ["AutoHop"] = true,
+        ["ItemHop"] = true,
     },
-    Tween = {
-        TweenFruit = true,
-        SkipIfOwned = true,
-        StoreFruit = true
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["URL"] = "Your Webhook Url",
+        ["UserId"] = "Id Discord",
     },
-    Shop = {
-        BuyZoroSword = false,
-        BuyHakiColor = false
-    },
-    Misc = {
-        SendWebhook = true,
-        WebhookURL = "your webhook",
-        DisableEffects = true
-    }
+    ["BlackScreen"] = false,
+    ["FpsBoost"] = false,
+    ["AntiIdle"] = true,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d734d024f3000caddd23122da89a6c3e.lua"))()
+loadstring(game:HttpGet('https://skullhub.xyz/loader.lua'))()
