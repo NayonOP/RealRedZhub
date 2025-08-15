@@ -1,31 +1,25 @@
-getgenv().simple_settings = {
-    ["MASTERY"] = {
-        ["ACTIVE"] = true,
-        ["METHOD"] = "Half", -- Method for gaining mastery, "Half"[300] or "Full"[600]
+getgenv().Config = {
+    Team = {
+        SelectTeam = "Marines"
     },
-    ["OBJECTIVE"] = {
-        ["GODHUMAN"] = true,
-        ["RACE-V3"] = true,race to V3 if possible Human, Mink, (Fishman, Ghoul, Cyborg) soon
-        ["FRAGMENT"] = 100000,
-        -- SWORD
-        ["CANVANDER"] = true,
-        ["BUDDY-SWORD"] = true,
-        ["CURSED-DUAL-KATANA"] = true,
-        ["SHARK-ANCHOR"] = true, -- soon.
-        --GUN
-        ["ACIDUM-RIFLE"] = true,
-        ["VENOM-BOW"] = true,
-        ["SOUL-GUITAR"] = true,
+    BuyFruit = {
+        SelectFruit = {"Kitsune-Kitsune"},
+        BuySelected = false,
+        BuyRandom = true
     },
-    ["FRUITPURCHASE"] = true,
-    ["PRIORITYFRUIT"] = {
-        [1] = "Dragon-Dragon",
-        [2] = "Flame-Flame",
-        [3] = "Rumble-Rumble",
-        [4] = "Human-Human: Buddha",
-        [5] = "Dark-Dark",
+    Tween = {
+        TweenFruit = true,
+        SkipIfOwned = true,
+        StoreFruit = true
     },
-    ["FPSCAP"] = 30,
-    ["LOWTEXTURE"] = true
+    Shop = {
+        BuyZoroSword = false,
+        BuyHakiColor = false
+    },
+    Misc = {
+        SendWebhook = true,
+        WebhookURL = "your webhook",
+        DisableEffects = true
+    }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d734d024f3000caddd23122da89a6c3e.lua"))()
